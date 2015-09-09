@@ -1,0 +1,3 @@
+﻿Opsætning af Wordpress: 1 time.
+Design af mockup: 5 timer.
+Implementering af design: 10 timer.
