@@ -13,10 +13,10 @@ Tags:
 	* Get rid of id="textspan*""
 	* Get rid of id="text*"
 	* Get rid of id="box*"
-	* Use table instead of divs in #box3 and #box4
-	* Rename class "trackOrder to widget"
 	* Make dynamic using php
 	* Make responsive/adabtive
+	* Add support for older browsers
+	* Fix buttons in widgets. They move when clicked.
  */
 
 @import url(boilerplate.css);
@@ -315,7 +315,7 @@ input[type=button].btn-widget {
 	margin-right: 2.79%;
 }
 
-.trackOrder {
+.widget {
 	float: right;
 	margin-left: 0px;
 	margin-top: 0px;
@@ -327,7 +327,7 @@ input[type=button].btn-widget {
 	p{
 		float: none;
 		font-size: 0.8em;
-					text-align: right;
+		text-align: right;
 		font-weight: normal;
 		line-height: 1em;
 		padding: 0.2em 0em 0.4em;
@@ -336,13 +336,14 @@ input[type=button].btn-widget {
 	}
 
 	.header {
-		float: left;
+		float: right;
 		font-size: 1em;
-		width: 79.531067%;
+		width: 80%;
 		text-align: right;
 		font-weight: 500;
 		line-height: 1em;
-		margin: 20px 0px 0px 20px;
+		margin-top: 20px;
+		margin-right: 10%;
 		min-height: 0px;
 		color: rgb(255, 255, 255);
 	}
@@ -401,55 +402,10 @@ input[type=button].btn-widget {
 	width: 100%;
 }
 
-
-
-#text15 {
-	float: left;
-	font-size: 0.8em;
-	width: 74%;
-	text-align: right;
-	font-weight: normal;
-	line-height: 1.7em;
-	margin-left: 0%;
-	margin-top: 0px;
-	min-height: 55px;
-	margin-right: 0%;
-}
-
 #textspan7 {
 	float: none;
 	font-size: 1em;
 	line-height: 1em;
-	color: rgb(255, 255, 255);
-}
-
-
-
-#text16 {
-	float: left;
-	font-size: 0.8em;
-	width: 26%;
-	text-align: right;
-	font-weight: 600;
-	line-height: 1em;
-	margin-left: 0%;
-	margin-top: 0px;
-	min-height: 0px;
-	margin-right: 0%;
-	color: rgb(255, 255, 255);
-}
-
-#text17 {
-	float: left;
-	font-size: 0.8em;
-	width: 73%;
-	text-align: right;
-	font-weight: normal;
-	line-height: 1em;
-	margin-left: 0%;
-	margin-top: 0px;
-	min-height: 12px;
-	margin-right: 0%;
 	color: rgb(255, 255, 255);
 }
 

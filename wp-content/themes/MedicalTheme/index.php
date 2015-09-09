@@ -63,7 +63,7 @@
 			</div>
 		</main>
 		<aside id="Sidepanel" class="clearfix">
-			<div class="trackOrder clearfix">
+			<div id="cart" class="widget clearfix">
 				<h2 class="header">
 				Indk&oslash;bskurv
 				</h2>
@@ -81,14 +81,14 @@
 						<td>Multiholder</td>
 					</tr>
 					<tr>
-						<td>total&#x3a;&nbsp;</td>
-						<td>4000 dkk</td>
+						<td>Total&#x3a;&nbsp;</td>
+						<td>4000 DKK</td>
 					</tr>
 				</table>
 				<input id="btn-placeOrder" class="btn-widget" type="button" value="bestil"></input>
 			</div>
 
-			<div class="trackOrder clearfix">
+			<div id="trackOrder" class="widget clearfix">
 				<h2 class="header">
 				Spor bestilling
 				</h2>
