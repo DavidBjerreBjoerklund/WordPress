@@ -330,19 +330,6 @@ input[type=button].btn-widget {
   line-height: 1em;
   color: white; }
 
-#text14 {
-  float: left;
-  font-size: 0.8em;
-  width: 26%;
-  text-align: right;
-  font-weight: normal;
-  line-height: 1.7em;
-  margin-left: 0%;
-  margin-top: 0px;
-  min-height: 55px;
-  margin-right: 0%;
-  color: white; }
-
 #text16 {
   float: left;
   font-size: 0.8em;
@@ -369,34 +356,30 @@ input[type=button].btn-widget {
   margin-right: 0%;
   color: white; }
 
-#box4 {
-  float: left;
-  margin-left: 10%;
-  margin-top: 9px;
-  clear: both;
-  width: 78.538491%;
-  border-top-width: 2px;
-  border-top-style: solid;
-  border-top-color: white;
-  padding-top: 7px; }
-
 #box3 {
+  display: box;
   float: left;
   margin-left: 10%;
   margin-top: 20px;
   clear: both;
   width: 80%; }
-
-#text4 {
-  float: left;
-  font-size: 1em;
-  text-align: left;
-  font-weight: normal;
-  line-height: 1em;
-  margin-left: 1.7%;
-  margin-top: 10px;
-  min-height: 0px;
-  margin-right: 0%; }
+  #box3 td {
+    font-size: 0.8em;
+    text-align: right;
+    font-weight: normal;
+    line-height: 1.7em;
+    min-height: 55px;
+    color: white; }
+  #box3 tr:nth-last-child(2) td {
+    padding-bottom: 20px; }
+  #box3 tr:last-child {
+    margin-top: 20px; }
+    #box3 tr:last-child td {
+      margin-top: 20px;
+      border-top-width: 2px;
+      border-top-style: solid;
+      border-top-color: white;
+      font-weight: 600; }
 
 #text6 {
   float: left;
