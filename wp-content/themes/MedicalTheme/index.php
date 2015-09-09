@@ -63,30 +63,32 @@
 			</div>
 		</main>
 		<aside id="Sidepanel" class="clearfix">
-			<div class="trackOrder clearfix">
+			<div id="cart" class="widget clearfix">
 				<h2 class="header">
 				Indk&oslash;bskurv
 				</h2>
-				<div id="box3" class="clearfix">
-					<p id="text14">
-					1 x<br />1 x<br />60 x
-					</p>
-					<p id="text15">
-					<span id="textspan7">&nbsp; 1k Minkkort<br />&nbsp; WinMink Licens<br />Multiholder</span>
-					</p>
-				</div>
-				<div id="box4" class="clearfix">
-					<p id="text16">
-					total&#x3a;&nbsp;
-					</p>
-					<p id="text17">
-					4000 dkk
-					</p>
-				</div>
+				<table id="box3" class="clearfix">
+					<tr>
+						<td>1 x</td>
+						<td>1k Minkkort</td>
+					</tr>
+					<tr>
+						<td>1 x</td>
+						<td>WinMink License</td>
+					</tr>
+					<tr>
+						<td>60 x</td>
+						<td>Multiholder</td>
+					</tr>
+					<tr>
+						<td>Total&#x3a;&nbsp;</td>
+						<td>4000 DKK</td>
+					</tr>
+				</table>
 				<input id="btn-placeOrder" class="btn-widget" type="button" value="bestil"></input>
 			</div>
 
-			<div class="trackOrder clearfix">
+			<div id="trackOrder" class="widget clearfix">
 				<h2 class="header">
 				Spor bestilling
 				</h2>
