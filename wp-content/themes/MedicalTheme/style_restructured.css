@@ -1,0 +1,76 @@
+@charset "UTF-8";
+/**
+Theme Name: DBBMedical
+Theme URI: http://www.davidbjorklund.dk
+Description: Clean and medical looking theme
+Version: 1.0
+Author: David Bj├©rklund
+Auther URI: http://www.davidbjorklund.dk
+Tags:
+**/
+@import url(boilerplate.css);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700);
+* {
+  font-family: 'Arial'; }
+
+h1,
+h2,
+h3,
+h4 {
+  float: left;
+  font-size: 2.5em;
+  width: auto;
+  height: auto;
+  text-align: left;
+  font-weight: 500;
+  line-height: 1em;
+  margin-left: 0%;
+  margin-top: 1px;
+  clear: none;
+  min-height: 0px;
+  font-family: 'Source Sans Pro'; }
+
+.newsBlock {
+  height: auto;
+  width: 100%;
+  margin-top: 20px;
+  display: block;
+  clear: both;
+  margin-right: 0%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: rgba(0, 0, 0, 0.3098); }
+  .newsBlock h2 {
+    float: left;
+    font-size: 1.6em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 0%;
+    margin-top: 0px;
+    clear: none;
+    min-height: 0px; }
+  .newsBlock p {
+    float: left;
+    font-size: 1em;
+    width: 61.07872%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 0.05729167%;
+    margin-top: 15.578125px;
+    clear: both;
+    min-height: 100px; }
+  .newsBlock .pubDate {
+    float: none;
+    font-size: 1em;
+    line-height: 1em;
+    color: #615e5e; }
+
+/*# sourceMappingURL=style_restructured.css.map */
